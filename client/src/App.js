@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import NotableDrops from "./components/NotableDrops";
+import MeetMoringa from "./components/MeetMoringa";
+import Footer from "./components/Footer";
+import TopCollections from "./components/TopCollections";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+      <Navbar />
+      <Hero />
+      <NotableDrops />
+      <TopCollections />      
+      {/* Top collections */}
+      {/* Trending in all categories */}
+      {/* Create and sell your NFTs */}
+      {/* Resources for getting started */}
+      {/* Browse by category */}
+      <MeetMoringa />
+      <Footer />
     </div>
   );
 }
