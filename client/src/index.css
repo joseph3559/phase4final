@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background: linear-gradient(113.49deg, #FF800C -30.3%, #181E41 58.12%);
+}
+@layer base {
+    li {
+      @apply p-2 cursor-pointer
+    }
+  
+    button {
+      @apply text-white border bg-[#000066] border-[#000066]
+      hover:bg-transparent hover:text-[#000066] rounded-md
+    }
+  }
